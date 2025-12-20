@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Manoj</title>
+  <meta name="description" content="Clean one-page static website built with HTML, CSS, and minimal JavaScript" />
 
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      line-height: .50;    <!--change here -->
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+     background: linear-gradient(135deg, var(--primary), #1e40af);
+	 color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      background-image: url('landscape.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+    }
+
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 15px;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+
+ 
+
+    footer {
+      background: #020617;
+      color: #94a3b8;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+
+  
+  </style>
+</head>
+<body>
+
+  <header id="home">
+    <h1>Welcome Manoj !</h1>
+   <!-- <p>Simple • Fast • Static</p>  -->
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+
+<svg width="500" height="200" >
+
+ <!-- <polygon points="100,10 40,198 190,78 10,78 160,198" -->
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg> 
+
+<svg width="500" height="200" > 
+
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+&nbsp;
+<div style="height: 50px;"></div>
+<h1><center><b><i>Congratulations !	&nbsp;</i></b></center></h1>
+<div style="height: 25px;"></div>
+<h1><center><i> It's running.. with Version - V01 </i></center></h1>
+
+
+<div style="height: 60px;"></div>
+
+
+  <footer>
+    © 2026 Hello Manoj. All rights reserved.&nbsp;
+	    Contact   : &nbsp;
+      Email: manojkumar024@gmail.com
+      
+  </footer>
+
+</body>
+</html>
